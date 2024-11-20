@@ -1,0 +1,408 @@
+/* Google Fonts: Baloo 2 */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
+
+/* Genel Ayarlar */
+body {
+    margin: 0;
+    font-family: 'Baloo 2', cursive;
+    background-color: #f0f4ff; /* Soft Mavi */
+    color: #333;
+}
+
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffccff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* BabyBloom başlığı */
+.brand-name {
+    font-family: 'Baloo 2', cursive; /* Eğlenceli, şişmiş yazı tipi */
+    font-size: 2rem; /* Daha büyük boyut */
+    font-weight: 700; /* Kalın */
+    color: #000; /* Siyah renk */
+    margin: 0; /* Ekstra boşlukları kaldırır */
+    text-transform: none; /* Küçük harf büyük harf karışımı */
+}
+h1 {
+    font-size: 24px;
+    color: #333; /* Siyah renk */
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+/* Modal için stil */
+.modal {
+    display: none; /* Başlangıçta gizli */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #fff;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    border-radius: 15px; /* Oval kenarlar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+    overflow: hidden; /* Taşan içeriği gizle */
+}
+
+.close-btn {
+    color: #aaa;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    color: black;
+}
+
+button {
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    background-color: #af4c84;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    background-color: #a0459b;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+a {
+    color: #af4ca0;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Genel stil */
+body {
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #3a508d;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.signup-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4c68af;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #455ca0;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #4c7aaf;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* CAPTCHA kısmı */
+.captcha {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Beni hatırla kısmı */
+.rememberme {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+/* Menü */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #222;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    right: -250px;  /* Sağda açılacak şekilde ayarlandı */
+    transition: right 0.3s;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar li a {
+    color: #fff;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.sidebar li a:hover {
+    background-color: #575757;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+}
+
+/* Ana Sayfa İçeriği */
+.main-content {
+    padding: 30px;
+    text-align: center;
+}
+
+.app-intro, .parent-info, .weekly-tips, .blog-post {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333; /* Siyah ve belirgin */
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    color: #555; /* Siyah ve belirgin, ancak biraz daha açık */
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    line-height: 1.6;
+}
+
+/* Tablo Düzeni */
+section {
+    display: table;
+    border-radius: 15px; /* Oval kenarlar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    font-weight: bold;
+    color: #0b161e;
+    margin-bottom: 15px;
+}
+
+section p {
+    background-color: #c4a8bd;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    padding: 15px;
+    border: 1px solid #6f7282;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Menü Butonu */
+.menu-btn {
+    background-color: #2f071b;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    color: white;
+    border: none;
+    padding: 8px 8px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background-color: #8a3e64;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+}
+
+/* Giriş Yap Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    padding: 8px;
+    border-radius: 8px;
+    width: 50%;
+    max-width: 200px;
+}
+
+.close-btn {
+    color: #aaa;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+}
+
+button {
+    background-color: #af4c8b;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #a04595;
+    font-family: 'Baloo 2', cursive; /* Eğlenceli yazı tipi */
+}
+
+/* Responsive Menü */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo h1 {
+        font-size: 20px;
+    }
+    .auth-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sidebar {
+        width: 200px;
+    }
+}
+
+
