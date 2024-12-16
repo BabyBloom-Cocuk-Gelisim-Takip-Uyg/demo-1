@@ -1,7 +1,7 @@
 ## babybloom.sql dosyasını içe aktarma
 
 Gerekenler: 
-- XAMPP 8.2 (8.2.12) ve üstü
+- XAMPP 8.2 (8.2.12) ve üstü önerilir
 - Apache ve MySQL Modülleri
 
 # Nasıl içe aktarılır?
@@ -11,7 +11,7 @@ veya tarayıcı adres çubuğuna "localhost/phpmyadmin" yazarak enter tuşuna ba
 - Açılan sayfada "babybloom" adında yeni bir veritabanı oluşturunuz.
 - Sol menüde çıkan "babybloom" veritabanına tıklayınız.
 - Üst kısımda "İçe aktar" butonuna basınız.
-- "İçe aktarmak için dosya:" başlığı altındaki "Gözat..." butonunu kullanarak "babybloom.sql" dosyasını seçiniz.
+- "İçe aktarmak için dosya:" başlığı altındaki "Gözat..." butonunu kullanarak "babybloom_v3.1.sql" dosyasını seçiniz.
 - En alta inip "İçe aktar" butonuna basınız.
 - Tabloların eklendiğine dair veritabanına tıklayarak kontrol ediniz.
 
