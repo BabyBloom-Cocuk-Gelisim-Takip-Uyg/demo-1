@@ -6,7 +6,7 @@ Bu proje, çocuk gelişimini takip etmek için geliştirilen bir dijital platfor
 # Gerekenler
 - PHP 7.4 veya üzeri
 - MySQL Veritabanı
-- XAMPP (veya herhangi bir yerel sunucu yazılımı)
+- XAMPP (veya herhangi bir yerel sunucu yazılımı) (XAMPP 8.2.12 sürümü önerilir.)
 - Web tarayıcısı
 
 # Kurulum Adımları
@@ -30,19 +30,21 @@ veya tarayıcı adres çubuğuna "localhost/phpmyadmin" yazarak enter tuşuna ba
 
 # Dosya Açıklamaları
 - index.php: Sitenin ana sayfası.
-- signup.php: Üye olma sayfası.
 - connectdb.php: Veritabanına bağlanma dosyası.
 - logincheck.php: Giriş yapma işlemlerini içeren dosya.
 - logoutcheck.php: Çıkış yapma işlemlerini içeren dosya.
 - signupcheck.php: Üye olma işlemlerini içeren dosya.
 - oturumvar.php: Oturumun varlığını kontrol eden dosya.
 - oturumyok.php: Oturumun yokluğunu kontrol eden dosya.
-- child-info.html: Çocuk bilgilerini içeren sayfa.
-- grafik.html: Çocuğun yaptığı aktivitelerini grafiksel olarak gösteren sayfa.
-- haftalik-oneriler: Haftalık önerilerini gösteren sayfa.
-- style.css: Tüm stil kurallarını içerir.
-- script.js, child-info.js: JavaScript dosyaları.
-- babybloom.sql: Veritabanı SQL Komut dosyası.
+- anasayfa.php: Genellikle çocuğun yaptığı aktivitelerini grafiksel olarak gösteren kullanıcı sayfası.
+- öneriler.php: Haftalık önerilerini gösteren sayfa.
+- style.css, signup.css, login.css, öneriler.css, expert.css, anasayfa.css: Tüm stil kurallarını içerir.
+- anasayfa.js: JavaScript dosyaları.
+- babybloom_v3.1.sql: Veritabanı SQL Komut dosyası.
+- expert-login.php: Uzman giriş sayfası.
+- expert-signup.php: Uzman üye olma sayfası.
+- login.php: Giriş sayfası.
+- signup.php: Üye olma sayfası.
 
 # Sorun Giderme
 Eğer proje çalışmazsa:
