@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: 127.0.0.1
--- Üretim Zamanı: 16 Ara 2024, 18:49:41
+-- Üretim Zamanı: 16 Ara 2024, 19:30:39
 -- Sunucu sürümü: 10.4.32-MariaDB
 -- PHP Sürümü: 8.2.12
 
@@ -93,7 +93,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `password`, `regdate`, `logintime`) VALUES
-(6, 'e4b33d901de1dd7d55ae814136f13c01', '0f065e729f4f130a641c3a03751b50a7', '2024-12-16', '2024-12-16');
+(7, 'e4b33d901de1dd7d55ae814136f13c01', '37b6da4e8821cda5964e7ebbaed3558a', '2024-12-16', '2024-12-16');
 
 --
 -- Dökümü yapılmış tablolar için indeksler
@@ -125,7 +125,7 @@ ALTER TABLE `childinfo`
 -- Tablo için AUTO_INCREMENT değeri `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(32) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(32) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
