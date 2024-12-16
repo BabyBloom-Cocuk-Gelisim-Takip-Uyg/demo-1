@@ -11,7 +11,7 @@ Bu proje, çocuk gelişimini takip etmek için geliştirilen bir dijital platfor
 
 # Kurulum Adımları
 1. XAMPP ile Proje Çalıştırma:
-- "babybloom_1" adlı proje klasörünü htdocs klasörüne yerleştiriniz.
+- "babybloom" adlı proje klasörünü htdocs klasörüne yerleştiriniz.
 - XAMPP Kontrol Paneli'nden Apache ve MySQL servislerini başlatınız.
 
 2. Veritabanı Kurulumu:
