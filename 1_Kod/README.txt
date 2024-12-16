@@ -21,7 +21,7 @@ veya tarayıcı adres çubuğuna "localhost/phpmyadmin" yazarak enter tuşuna ba
 - Açılan sayfada "babybloom" adında yeni bir veritabanı oluşturunuz.
 - Sol menüde çıkan "babybloom" veritabanına tıklayınız.
 - Üst kısımda "İçe aktar" butonuna basınız.
-- "İçe aktarmak için dosya:" başlığı altındaki "Gözat..." butonunu kullanarak "babybloom.sql" dosyasını seçiniz.
+- "İçe aktarmak için dosya:" başlığı altındaki "Gözat..." butonunu kullanarak "babybloom_v3.1.sql" dosyasını seçiniz.
 - En alta inip "İçe aktar" butonuna basınız.
 - Tabloların eklendiğine dair veritabanına tıklayarak kontrol ediniz.
 
